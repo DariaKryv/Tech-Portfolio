@@ -7,17 +7,17 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="border-b border-gray-700">
+    <nav className="fixed top-0 w-full">
       <div className="max-w-6xl mx-auto flex justify-between items-center p-4">
         <Link href="/" className="font-bold text-xl">
           Megokruto
         </Link>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex gap-6 text-gray-400">
-          <Link href="/work">Projects</Link>
-          <Link href="/services">Services</Link>
-          <Link href="/clients">Clients</Link>
+        <div className="hidden md:flex gap-6 text-gray-200">
+          <Link href="/about">About</Link>
+          <Link href="/services">Portfolio</Link>
+          {/* <Link href="/clients">Clients</Link> */}
           <Link href="/contact">Contact</Link>
         </div>
 
@@ -26,9 +26,9 @@ export default function Navbar() {
           className="md:hidden flex flex-col gap-1"
           onClick={() => setOpen(!open)}
         >
-          <span className="w-6 h-0.5 bg-black"></span>
-          <span className="w-6 h-0.5 bg-black"></span>
-          <span className="w-6 h-0.5 bg-black"></span>
+          <span className="w-6 h-0.5 bg-white"></span>
+          <span className="w-6 h-0.5 bg-white"></span>
+          <span className="w-6 h-0.5 bg-white"></span>
         </button>
       </div>
 

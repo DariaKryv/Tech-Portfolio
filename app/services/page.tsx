@@ -1,7 +1,7 @@
 export default function Services() {
   return (
     <div className="space-y-10">
-      <h1 className="text-4xl font-bold">Services</h1>
+      <h1 className="text-4xl font-bold"></h1>
 
       <div className="grid md:grid-cols-2 gap-8">
         <div className="border p-6 rounded-xl">
