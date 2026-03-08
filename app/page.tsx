@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="space-y-18">
       {/* HERO BANNER */}
-      <section className="p-22 text-center">
+      <section className="px-2 py-16 text-center">
         {/* <section
         className="relative rounded-2xl overflow-hidden"
         style={{ backgroundImage: "url('/is.jpg')" }}
@@ -19,10 +19,10 @@ export default function Home() {
           businesses that want to grow online.
         </p>
 
-        <div className="flex justify-center gap-4 mt-8">
+        <div className="flex justify-center gap-4 mt-8 ">
           <Link
             href="/about"
-            className="px-6 py-3 bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-700"
+            className="px-6  py-3 bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-700"
           >
             View Work
           </Link>
@@ -42,11 +42,11 @@ export default function Home() {
           Trusted by Clients
         </h3>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center opacity-80  bg-gray-100/20">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center opacity-80">
           <a
             href="https://client1.com"
             target="_blank"
-            className="p-2 hover:shadow-lg transition rounded-lg"
+            className="flex items-center justify-center h-24 bg-white/70 backdrop-blur rounded-xl border border-gray-200 hover:shadow-lg transition p-4"
           >
             <img
               src="/SopraSteria.png"
@@ -58,7 +58,7 @@ export default function Home() {
           <a
             href="https://client1.com"
             target="_blank"
-            className="p-2 hover:shadow-lg transition rounded-lg"
+            className="flex items-center justify-center h-24 bg-white/70 backdrop-blur rounded-xl border border-gray-200 hover:shadow-lg transition p-4"
           >
             <img
               src="/ProRail.svg"
@@ -70,7 +70,7 @@ export default function Home() {
           <a
             href="https://client1.com"
             target="_blank"
-            className="p-2 hover:shadow-lg transition rounded-lg"
+            className="flex items-center justify-center h-24 bg-white/70 backdrop-blur rounded-xl border border-gray-200 hover:shadow-lg transition p-4"
           >
             <img
               src="/corona.png"
@@ -82,7 +82,7 @@ export default function Home() {
           <a
             href="https://client1.com"
             target="_blank"
-            className="p-2 hover:shadow-lg transition rounded-lg"
+            className="flex items-center justify-center h-24 bg-white/70 backdrop-blur rounded-xl border border-gray-200 hover:shadow-lg transition p-4"
           >
             <img
               src="/umcg.png"

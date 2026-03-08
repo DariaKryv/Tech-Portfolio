@@ -1,16 +1,31 @@
+import { Mail, Phone } from "lucide-react";
+
 export default function Contact() {
   return (
-    <div className="space-y-8">
-      <h1 className="text-4xl font-bold"></h1>
+    <div className="flex items-center justify-center min-h-[70vh] px-6">
+      <div className="max-w-lg w-full bg-black/70 backdrop-blur rounded-2xl shadow-xl p-10 text-center space-y-8 ">
+        <h1 className="text-4xl font-bold text-gray-200">Get in Touch</h1>
 
-      <p>Interested in working together? Reach out.</p>
+        <p className="text-gray-400">Interested in working together?</p>
 
-      <div className="space-y-2">
-        <p>Email: megokruto@gmail.com</p>
+        <div>
+          <div className="flex items-center justify-center gap-3 p-4 rounded-xl hover:bg-gray-100 transition">
+            <Mail className="text-blue-600" size={22} />
+            <a
+              href="mailto:megokruto@gmail.com"
+              className="text-gray-300 font-medium"
+            >
+              megokruto@gmail.com
+            </a>
+          </div>
 
-        <p>Phone: +31 6 27 58 69 65</p>
-
-        {/* <p>GitHub: https://github.com/yourusername</p> */}
+          <div className="flex items-center justify-center gap-3 p-4 rounded-xl hover:bg-gray-100 transition">
+            <Phone className="text-blue-600" size={22} />
+            <a href="tel:+316275800000" className="text-gray-300 font-medium">
+              +31 6 27 58 000000
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -7,7 +7,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 w-full">
+    <nav className="fixed top-0 w-full bg-black/50">
       <div className="max-w-6xl mx-auto flex justify-between items-center p-4">
         <Link href="/" className="font-bold text-xl">
           Megokruto
