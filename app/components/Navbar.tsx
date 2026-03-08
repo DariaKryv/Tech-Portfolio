@@ -17,7 +17,7 @@ export default function Navbar() {
         <div className="hidden md:flex gap-6 text-gray-200">
           <Link href="/about">About</Link>
           <Link href="/services">Portfolio</Link>
-          {/* <Link href="/clients">Clients</Link> */}
+
           <Link href="/contact">Contact</Link>
         </div>
 
@@ -41,10 +41,6 @@ export default function Navbar() {
 
           <Link href="/services" onClick={() => setOpen(false)}>
             Services
-          </Link>
-
-          <Link href="/clients" onClick={() => setOpen(false)}>
-            Clients
           </Link>
 
           <Link href="/contact" onClick={() => setOpen(false)}>
