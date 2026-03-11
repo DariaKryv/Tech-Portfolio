@@ -23,7 +23,7 @@ export default function Home() {
 
         <div className="flex justify-center gap-4 mt-8 ">
           <Link
-            href="/about"
+            href="/portfolio"
             className="px-6 py-3 border border-green-500 text-green-400 rounded-lg hover:bg-green-500/50"
           >
             View Portfolio
