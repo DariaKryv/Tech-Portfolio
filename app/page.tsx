@@ -12,120 +12,110 @@ export default function Home() {
         style={{ backgroundImage: "url('/is.jpg')" }}
       > */}
         <BlobBackground />
-        <h1 className="text-5xl font-bold text-blue-100">Modern Dev Studio</h1>
+        <h1 className="text-5xl font-bold text-blue-100 py-16">
+          Building Modern Dev Studio
+        </h1>
 
-        <p className="text-lg text-blue-200 mt-4 max-w-2xl mx-auto">
-          We build fast, scalable and beautifully designed digital products for
-          businesses that want to grow online.
+        <p className="text-lg text-gray-200 mt-4 max-w-2xl mx-auto">
+          Custom web apps, mobile apps, and scalable platformsdesigned for
+          startups and enterprises
         </p>
 
         <div className="flex justify-center gap-4 mt-8 ">
           <Link
             href="/about"
-            className="px-6  py-3 bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-700"
+            className="px-6 py-3 border border-green-500 text-green-400 rounded-lg hover:bg-green-500/50"
           >
-            View Work
+            View Portfolio
           </Link>
 
           <Link
             href="/contact"
-            className="px-6 py-3 border border-blue-400 text-blue-400 rounded-lg hover:bg-blue-50"
+            className="px-6  py-3 bg-green-500/80 text-white rounded-lg shadow-md hover:bg-green-400"
           >
-            Start a Project
+            Get in Contact
           </Link>
         </div>
       </section>
 
-      {/* CLIENT LOGOS */}
-      <section>
-        <h3 className="text-3xl font-semibold text-gray-200 mb-10 text-center">
-          Trusted by Clients
-        </h3>
-
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center opacity-80">
-          <a
-            href="https://client1.com"
-            target="_blank"
-            className="flex items-center justify-center h-24 bg-white/70 backdrop-blur rounded-xl border border-gray-200 hover:shadow-lg transition p-4"
-          >
-            <img
-              src="/SopraSteria.png"
-              alt="Client 1"
-              className="mx-auto h-12 object-contain grayscale hover:grayscale-0 transition"
-            />
-          </a>
-
-          <a
-            href="https://client1.com"
-            target="_blank"
-            className="flex items-center justify-center h-24 bg-white/70 backdrop-blur rounded-xl border border-gray-200 hover:shadow-lg transition p-4"
-          >
-            <img
-              src="/ProRail.svg"
-              alt="Client 2"
-              className="mx-auto h-12 object-contain grayscale hover:grayscale-0 transition"
-            />
-          </a>
-
-          <a
-            href="https://client1.com"
-            target="_blank"
-            className="flex items-center justify-center h-24 bg-white/70 backdrop-blur rounded-xl border border-gray-200 hover:shadow-lg transition p-4"
-          >
-            <img
-              src="/corona.png"
-              alt="Client 3"
-              className="mx-auto h-12 object-contain grayscale hover:grayscale-0 transition"
-            />
-          </a>
-
-          <a
-            href="https://client1.com"
-            target="_blank"
-            className="flex items-center justify-center h-24 bg-white/70 backdrop-blur rounded-xl border border-gray-200 hover:shadow-lg transition p-4"
-          >
-            <img
-              src="/umcg.png"
-              alt="Client 4"
-              className="mx-auto h-12 object-contain grayscale hover:grayscale-0 transition"
-            />
-          </a>
-        </div>
-      </section>
-
       {/* SERVICES SECTION */}
-      {/* <section>
+      <section>
         <h2 className="text-3xl font-semibold text-gray-300 mb-6">
           What We Build
         </h2>
 
         <div className="grid md:grid-cols-3 gap-6">
-          <div className="p-6 border border-gray-300 rounded-xl bg-white shadow-sm">
-            <h3 className="font-semibold text-blue-800 text-xl">Websites</h3>
-            <p className="text-gray-700 mt-2">
+          <div className="p-6 border border-gray-400 rounded-xl  bg-black/20 shadow-sm">
+            <h3 className="font-semibold text-green-700 text-xl">Websites</h3>
+            <p className="text-gray-200 mt-2">
               Modern company websites and landing pages.
             </p>
           </div>
 
-          <div className="p-6 border border-gray-300 rounded-xl bg-white shadow-sm">
-            <h3 className="font-semibold text-blue-800 text-xl">Web Apps</h3>
-            <p className="text-gray-700 mt-2">
+          <div className="p-6 border border-gray-400 rounded-xl bg-black/20 shadow-sm">
+            <h3 className="font-semibold text-green-700 text-xl">Web Apps</h3>
+            <p className="text-gray-200 mt-2">
               Dashboards, SaaS products and internal tools.
             </p>
           </div>
 
-          <div className="p-6 border border-gray-300 rounded-xl bg-white shadow-sm">
-            <h3 className="font-semibold text-blue-800 text-xl">Mobile Apps</h3>
-            <p className="text-gray-700 mt-2">
+          <div className="p-6 border border-gray-400 rounded-xl  bg-black/20 shadow-sm">
+            <h3 className="font-semibold text-green-700 text-xl">
+              Mobile Apps
+            </h3>
+            <p className="text-gray-200 mt-2">
               Cross-platform apps connected to modern APIs.
             </p>
           </div>
         </div>
-      </section> */}
+      </section>
 
+      {/* CLIENT LOGOS */}
       <section>
+        <h3 className="text-3xl pt-20 font-semibold text-gray-300 mb-14 text-center border-b border-pink-900/10">
+          Trusted by Clients
+        </h3>
+
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-12 items-center justify-items-center opacity-70">
+          <a href="https://client1.com" target="_blank">
+            <img
+              src="/SopraSteria.png"
+              alt="Sopra Steria"
+              className="h-10 w-auto brightness-0 invert opacity-70 hover:opacity-100 transition"
+            />
+          </a>
+
+          <a href="https://client2.com" target="_blank">
+            <img
+              src="/ProRail.svg"
+              alt="ProRail"
+              className="h-10 w-auto brightness-0 invert opacity-70 hover:opacity-100 transition"
+            />
+          </a>
+
+          <a href="https://client3.com" target="_blank">
+            <img
+              src="/Ministerie-VWS-logo.png"
+              alt="Corona"
+              className="h-10 w-auto brightness-0 invert opacity-70 hover:opacity-100 transition"
+            />
+          </a>
+
+          <a href="https://client4.com" target="_blank">
+            <img
+              src="/asia_gaming.png.webp"
+              alt="UMCG"
+              className="h-10 w-auto brightness-0 invert opacity-70 hover:opacity-100 transition"
+            />
+          </a>
+        </div>
+      </section>
+
+      <section className="pt-0 m-0">
         <Contact />
       </section>
     </div>
   );
 }
+
+// shadow-[0_12px_8px_-4px_rgba(266,12,93,0.25)]

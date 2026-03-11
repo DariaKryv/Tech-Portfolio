@@ -2,15 +2,18 @@ import { Mail, Phone } from "lucide-react";
 
 export default function Contact() {
   return (
-    <div className="flex items-center justify-center min-h-[70vh] px-6">
-      <div className="max-w-lg w-full bg-black/70 backdrop-blur rounded-2xl shadow-xl p-10 text-center space-y-8 ">
-        <h1 className="text-4xl font-bold text-gray-200">Get in Touch</h1>
-
-        <p className="text-gray-400">Interested in working together?</p>
+    <div className="flex mt-8 items-center justify-center  min-h-[40vh]">
+      <div className="w-full bg-black/10 border-gray-300 backdrop-blur rounded-2xl shadow-xl p-10 text-center space-y-8 ">
+        <h1 className="text-4xl font-bold text-gray-200 leading-none m-2">
+          MEGOKRUTO
+        </h1>
+        <div className="text-xs font-light text-gray-200 leading-none -mt-1">
+          DEV STUDIO
+        </div>
 
         <div>
-          <div className="flex items-center justify-center gap-3 p-4 rounded-xl hover:bg-gray-100 transition">
-            <Mail className="text-blue-600" size={22} />
+          <div className="flex items-center justify-center gap-4 p-2 rounded-xl hover:bg-gray-200/15 transition">
+            <Mail className="text-pink-600" size={22} />
             <a
               href="mailto:megokruto@gmail.com"
               className="text-gray-300 font-medium"
@@ -19,10 +22,10 @@ export default function Contact() {
             </a>
           </div>
 
-          <div className="flex items-center justify-center gap-3 p-4 rounded-xl hover:bg-gray-100 transition">
-            <Phone className="text-blue-600" size={22} />
+          <div className="flex items-center justify-center gap-4 p-2 rounded-xl hover:bg-gray-200/15 transition">
+            <Phone className="text-pink-600" size={22} />
             <a href="tel:+316275800000" className="text-gray-300 font-medium">
-              +31 6 27 58 000000
+              +31 6 27 58 69 65
             </a>
           </div>
         </div>
