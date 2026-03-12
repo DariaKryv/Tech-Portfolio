@@ -49,7 +49,7 @@ const projects = [
 export default function Portfolio() {
   return (
     <main className="max-w-6xl mx-auto px-6 py-24 text-gray-300">
-      <h1 className="text-4xl font-bold mb-12 text-center">My Projects</h1>
+      <h1 className="text-4xl font-bold mb-12 text-center">Projects</h1>
 
       <div className="grid md:grid-cols-3 sm:grid-cols-2 gap-8">
         {projects.map((project) => (

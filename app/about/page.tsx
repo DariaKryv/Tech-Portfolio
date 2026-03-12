@@ -25,14 +25,14 @@ export default function About() {
           <h2 className="text-3xl font-semibold mb-4">Founder</h2>
 
           <p className="text-gray-300 mb-4">
-            I am a software engineer specializing in full-stack development,
-            cloud architecture, and scalable systems. Over the years I have
-            worked with organizations across multiple industries delivering
-            modern digital platforms and enterprise applications.
+            A software engineer specializing in full-stack development, cloud
+            architecture, and scalable systems. Over the years have worked with
+            organizations across multiple industries delivering modern digital
+            platforms and enterprise applications.
           </p>
 
           <p className="text-gray-300">
-            My focus is on building reliable systems, intuitive interfaces, and
+            The focus is on building reliable systems, intuitive interfaces, and
             high-performance software that supports real business needs.
           </p>
         </div>
@@ -43,7 +43,7 @@ export default function About() {
         <h2 className="text-3xl font-semibold mb-6">Professional Background</h2>
 
         <p className="text-gray-300 max-w-2xl mx-auto mb-10">
-          View my full professional experience, technical background and
+          View full professional experience, technical background and
           development history.
         </p>
 
