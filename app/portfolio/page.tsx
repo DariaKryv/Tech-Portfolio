@@ -3,6 +3,7 @@ import Link from "next/link";
 const projects = [
   {
     id: "project1",
+    slug: "corona-dashboard",
     name: "Corona Dashboard",
     description: "Ministery van Volksgezondheid Welzijn en Sport",
     image: "corona1.png",
@@ -17,7 +18,31 @@ const projects = [
     id: "project3",
     name: "Code & Comedy",
     description: "SopraSteria",
-    image: "/codecomedy.png",
+    image: "/Codecomedy.png",
+  },
+  {
+    id: "project4",
+    name: "Riminder App",
+    description: "SopraSteria",
+    image: "/reminderApp.png",
+  },
+  {
+    id: "project5",
+    name: "Nierkeuze.nl",
+    description: "UMCG",
+    image: "/UMCGN.png",
+  },
+  {
+    id: "project6",
+    name: "Casino Gaming platform",
+    description: "Asia Gaming",
+    image: "/AG.jpg",
+  },
+  {
+    id: "project7",
+    name: "Casino Gaming platform",
+    description: "Asia Gaming",
+    image: "/AGaming.png",
   },
 ];
 
@@ -30,7 +55,7 @@ export default function Portfolio() {
         {projects.map((project) => (
           <Link
             key={project.id}
-            href={`/portfolio/${project.id}`}
+            href={`/pages/${project.id}`}
             className="group relative overflow-hidden rounded-xl shadow-lg cursor-pointer"
           >
             <img
