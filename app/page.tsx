@@ -122,7 +122,8 @@ export default function Home() {
 
       {/* ========== CLIENT LOGOS ========== */}
       <section className="relative py-6 sm:py-8 md:py-14 overflow-hidden border-y border-white/5">
-        <p className="text-center text-[10px] sm:text-xs md:text-sm uppercase tracking-[0.3em] text-gray-400 mb-4 sm:mb-6 md:mb-8">
+        {/* <p className="text-center text-[10px] sm:text-xs md:text-sm uppercase tracking-[0.3em] text-gray-400 mb-4 sm:mb-6 md:mb-8"> */}
+        <p className="text-center text-xs sm:text-sm uppercase tracking-[0.3em] text-gray-300 mb-3 sm:mb-4">
           Trusted by
         </p>
         <div className="relative overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]">
@@ -133,7 +134,7 @@ export default function Home() {
                   key={`${client.name}-${i}`}
                   src={client.logo}
                   alt={client.name}
-                  className="h-4 sm:h-5 md:h-8 lg:h-10 w-auto mx-4 sm:mx-6 md:mx-10 shrink-0 brightness-0 invert opacity-60 hover:opacity-100 transition-all duration-300 hover:drop-shadow-[0_0_12px_rgba(255,106,0,0.5)]"
+                  className="h-10 sm:h-8 md:h-12 lg:h-14 w-auto mx-4 sm:mx-6 md:mx-10 shrink-0 brightness-0 invert opacity-60 hover:opacity-100 transition-all duration-300 hover:drop-shadow-[0_0_12px_rgba(255,106,0,0.5)]"
                 />
               ),
             )}
@@ -144,7 +145,7 @@ export default function Home() {
       {/* ========== SERVICES GRID ========== */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 py-16 sm:py-20 md:py-32">
         <div className="text-center mb-10 sm:mb-12 md:mb-16">
-          <p className="text-xs sm:text-sm uppercase tracking-[0.3em] text-gray-400 mb-3 sm:mb-4">
+          <p className="text-xs sm:text-sm uppercase tracking-[0.3em] text-gray-300 mb-3 sm:mb-4">
             What we do
           </p>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white">
@@ -183,7 +184,7 @@ export default function Home() {
       {/* ========== BENEFITS ========== */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 py-16 sm:py-20 md:py-32">
         <div className="text-center mb-10 sm:mb-12 md:mb-16">
-          <p className="text-xs sm:text-sm uppercase tracking-[0.3em] text-gray-400 mb-3 sm:mb-4">
+          <p className="text-xs sm:text-sm uppercase tracking-[0.3em] text-gray-300 mb-3 sm:mb-4">
             Why choose us
           </p>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white">
@@ -212,7 +213,7 @@ export default function Home() {
       <section className="border-t border-white/5">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-16 sm:py-20 md:py-32">
           <div className="text-center mb-10 sm:mb-12 md:mb-16">
-            <p className="text-xs sm:text-sm uppercase tracking-[0.3em] text-gray-400 mb-3 sm:mb-4">
+            <p className="text-xs sm:text-sm uppercase tracking-[0.3em] text-gray-300 mb-3 sm:mb-4">
               Use Cases
             </p>
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-3 sm:mb-4">
@@ -377,7 +378,7 @@ export default function Home() {
           <div className="text-center mt-8 sm:mt-10 md:mt-14">
             <Link
               href="/portfolio"
-              className="pill-button text-gray-400 inline-flex items-center gap-2 hover:text-orange-400 hover:border-orange-400/30 transition-all"
+              className="pill-button text-gray-300 inline-flex items-center gap-2 hover:text-orange-400 hover:border-orange-400/30 transition-all"
             >
               View all projects <ArrowRight size={14} />
             </Link>
